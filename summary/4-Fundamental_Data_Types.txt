@@ -1,0 +1,80 @@
+Terms:
+Array                        Floating-point number
+Binary system                Hexadecimal system
+Boolean values               Index
+Casting                      Overflow
+Characters                   Run-time error
+Compile-time error           Stream manipulator
+Data type                    String
+Decimal system               Underflow
+
+Summary:
+• C++ has several built-in data types for storing integers (whole numbers), floating-point
+numbers (numbers with a decimal point), characters, and Boolean values (true/false).
+
+• Floating-point numbers are interpreted as double by default. To represent a float, we
+have to add the F suffix to our numbers (eg 1.2F).
+
+• Whole numbers are interpreted as int by default. To represent a long, we have to use
+the L suffix (eg 10L).
+
+• Using the auto keyword, we can let the compiler infer the type of a variable based on its
+initial value.
+
+• Numbers can be represented using the decimal, binary, and hexadecimal systems.
+
+• If we store a value larger or smaller than a data type’s limits, overflowing or underflowing
+occurs.
+
+• Using the sizeof() function, we can see the number of bytes taken by a data type.
+
+• We can use stream manipulators to format data sent to a stream. The most common
+manipulators are setw, fixed, setprecision, boolalpha, left, and right.
+
+• The Boolean false is represented as 0. Any non-zero number is interpreted as the
+Boolean true.
+
+• In C++, characters should be surrounded with single quotes.
+
+• Characters are internally represented as numbers.
+
+• A string is a sequence of characters and should be surrounded by double quotes.
+
+• We use arrays to store a sequence of items (eg numbers, characters, etc).
+
+• Array elements can be accessed using an index. The index of the first element in an
+array is 0.
+
+• When we store a smaller value in a larger data type, the value gets automatically cast
+(converted to) the larger type. When storing a large value in a smaller data type, we
+have to explicit cast the value.
+
+• C-style casting involves prefixing a variable with the target data type in parentheses. In
+C++, we use the static_cast operator.
+
+• C++ casting is safer because conversion problems can be caught at the compile-time.
+With C-style casting, we won’t know about conversion issues until the run-time.
+
+
+
+
+Date Range:
+  Type               Bytes                    Range
+  short               2                -32,768 =>  32,768
+  int                 4                   -2B  =>  2B
+  long                8                       same
+  longlong            16                  more than -2B
+
+  float               4                 -3.4E38 => 3.4E38
+  double              8                -1.7E308 => 1.7E308
+  long double         8                -3.4E932 => 1.7E4832
+
+  bool                1                     true/false
+  char                1                   one single charecter
+
+
+Numbers Systems:
+  System                     Digits                    Example            C++(prefex)
+  Decimal(Base10)             0-9                        255                   0x
+  Binary(Base2)               0,1                      11111111                0b
+  Hexadecimal(Base16)         0-9,A-F                     FF            

@@ -1,4 +1,4 @@
-Terms
+Terms:
 C++ Standard Library                             Integrated Development Environment
 Compiling                                        Machine code
 Console application                              Statement
@@ -6,7 +6,7 @@ Function                                         Syntax
 Graphical User Interface (GUI)                   Terminal
 
 
-Summary
+Summary:
 • C++ is one of the oldest yet most popular programming languages in the world due to
 its performance and efficiency.
 
@@ -23,5 +23,3 @@ problems.
 • To run C++ applications, first we have to compile our C++ code to machine code.
 
 • The main() function is the starting point of a C++ program.
-
-

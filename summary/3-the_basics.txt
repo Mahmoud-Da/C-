@@ -9,7 +9,7 @@ Mathematical expression           Stream insertion operator
 Operand                           Variable     
 
 
-Summary
+Summary:
 • We use variables to temporarily store data in the computer’s memory.
 
 • To declare a variable, we should specify its type and give it a meaningful name.
