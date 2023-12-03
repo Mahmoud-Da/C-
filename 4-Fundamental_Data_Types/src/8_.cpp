@@ -1,5 +1,7 @@
 #include "iostream"
+
 using namespace std;
+
 int main()
 {
   // sizeof to check the byte of varible
